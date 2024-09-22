@@ -1,0 +1,3 @@
+# UNCONFIGURED FSTAB FOR BASE SYSTEM
+/dev/mmcblk0p13 /system/ auto ro 0 0
+none    /media  tmpfs   auto    0 0

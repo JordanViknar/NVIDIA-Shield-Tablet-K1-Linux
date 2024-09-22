@@ -1,0 +1,4 @@
+case "$1" in
+        suspend) rfkill unblock 0;rfkill block 1;rfkill block 2; echo 0 > /proc/bluetooth/sleep/lpm ;;
+        resume) rfkill block 0; rfkill unblock 1;rfkill unblock 2; echo 1 > /proc/bluetooth/sleep/lpm ;;
+esac
