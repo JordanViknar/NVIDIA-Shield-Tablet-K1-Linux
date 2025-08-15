@@ -96,10 +96,11 @@ We fix that through SSH *(or before rebooting)* :
 
 ```bash
 sudo apt install nano -y
+sudo mkdir /etc/X11/xorg.conf.d
 sudo nano /etc/X11/xorg.conf.d/10-evdev.conf
 ```
 
-Make the last section look like this and save, then restart the system :
+Insert this in the file and save :
 
 ```
 Section "InputClass"
@@ -111,6 +112,12 @@ Section "InputClass"
 	Option "InvertX" "true"
 	Option "Calibration" "0 1199 0 1919"
 EndSection
+```
+
+Run this command to fix the rotation of the login screen (seemingly at the cost of the virtual keyboard, be careful or enable automatic login !)
+
+```
+sudo cp ~/.config/monitors.xml /var/lib/lightdm/.config/
 ```
 
 ### Updating to Ubuntu 16.04
