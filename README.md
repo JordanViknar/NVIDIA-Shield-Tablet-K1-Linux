@@ -1,4 +1,9 @@
 > [!WARNING]
+> Severely out of date. Later findings I made allowed me to upgrade up to Ubuntu 22.04.
+
+---
+
+> [!WARNING]
 > This "guide" is still **severely incomplete**, and is more meant to track progress, for people to find the files easily if they want to attempt this themselves or to pick up my own work.
 >
 > In particular, I currently get stuck because of the touchscreen, after updating from Ubuntu 14.04 to 16.04.
