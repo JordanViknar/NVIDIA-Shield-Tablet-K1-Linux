@@ -134,14 +134,6 @@ sudo cp ~/.config/monitors.xml /var/lib/lightdm/.config/
 >
 > The touchscreen fix mentioned in other tutorials simply does NOT work for me. My tablet also did not connect to my Wi-Fi automatically, so SSH is unusable.
 
-> [!IMPORTANT]
->
-> However, I have one idea up my sleeve.
->
-> What if I scrapped the Ubuntu Linux4Tegra approach entirely, and used an Arch Linux ARM filesystem with SSH and Wi-Fi already set up, then moved/downloaded/updated the Linux4Tegra files over ?
->
-> Also, perhaps Wayland could avoid me some touchscreen issues... or do the exact opposite and add more. It's a coin flip for now as far as I know, really.
-
 ## Sources
 
 ### Files
