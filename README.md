@@ -1,5 +1,6 @@
-> [!WARNING]
+> [!CAUTION]
 > Severely out of date. Later findings I made allowed me to upgrade up to Ubuntu 22.04.
+> I do not recommend you use this "guide" in its current state.
 
 ---
 
